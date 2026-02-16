@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title id="title-edit">Rakim, only 2645 Sundays remain</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">
+                Rakim, only <span id="sundays-count">2645</span> Sundays remain
+            </h1>
+
+            <div id="calendar-grid" class="calendar-grid"></div>
+
+            <h2 class="question">How are you going to spend these weeks Rakim?</h2>
+
+            <div class="links">
+                <a href="https://youtu.be/BOksW_NabEk" target="_blank">[get inspired]</a>
+                <span> | </span>
+                <a href="#" id="change-link">[change name, date or inspiration]</a>
+            </div>
+        </div>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal" style="display: none">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Settings</h2>
+                <form id="settings-form">
+                    <div class="form-group">
+                        <label for="name-input">Your Name</label>
+                        <input
+                            type="text"
+                            id="name-input"
+                            placeholder="Enter your name"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="birth-date-input">Birth Date</label>
+                        <input type="date" id="birth-date-input" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="life-expectancy-input">Life Expectancy (years)</label>
+                        <input
+                            type="number"
+                            id="life-expectancy-input"
+                            min="1"
+                            max="120"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="inspiration-input"
+                            >Inspiration Link (YouTube URL)</label
+                        >
+                        <input
+                            type="url"
+                            id="inspiration-input"
+                            placeholder="https://youtu.be/..."
+                        />
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="save-btn">Save</button>
+                        <button type="button" class="cancel-btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script src="calendar.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "The Last Sunday",
+  "version": "1.0",
+  "description": "Visualize your remaining Sundays - only 2645 remain",
+  
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  
+  "permissions": []
+}
