@@ -1,7 +1,7 @@
 # The Last Sunday - Firefox Extension
 
 A Firefox extension that visualizes your remaining Sundays every time you open a new tab.
-
+Basically the same thing as [The Last Sunday](https://chromewebstore.google.com/detail/the-last-sunday-reminder/aiojhapcgfgmiacbbjfgedhlcchmpelh?pli=1)
 ## What it does
 
 Based on your birth date and life expectancy, this extension shows:
