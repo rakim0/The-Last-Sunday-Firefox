@@ -22,7 +22,7 @@ Based on your birth date and life expectancy, this extension shows:
 To personalize the extension, edit the configuration in `calendar.js`:
 
 ```javascript
-const NAME = "Paras";  // Change to your name
+const NAME = "Rakim";  // Change to your name
 const BIRTH_DATE = new Date(1987, 0, 1);  // Your birth date (year, month-1, day)
 const LIFE_EXPECTANCY = 80;  // Expected lifespan in years
 ```
