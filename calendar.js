@@ -1,6 +1,6 @@
 // Default Configuration
 const DEFAULT_NAME = "Rakim";
-const DEFAULT_BIRTH_DATE = new Date(2004, 2, 2); // March 2, 2004
+const DEFAULT_BIRTH_DATE = new Date(2004, 3, 2); // March 2, 2004
 const DEFAULT_LIFE_EXPECTANCY = 50; // years
 const DEFAULT_INSPIRATION_LINK = "https://youtu.be/BOksW_NabEk";
 
